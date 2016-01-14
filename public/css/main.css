@@ -1,0 +1,47 @@
+body, html {
+	font-family: "Open Sans" !important;
+}
+
+/*HOME PAGE*/
+#homepage-NavSection{
+	height: 730px;
+	padding-left: 40px;
+	padding-top: 10px;
+}
+.laptopIcon{
+	font-size: 40px;
+	color: #383838;
+}
+.companyName{
+	font-size: 40px;
+	font-weight: bold;
+	color: #383838;
+}
+.navOption{
+	padding-top: 30px;
+}
+.sloganSection{
+	margin-top: 200px;
+}
+.slogan{
+	font-size: 50px;
+	color: #383838;
+}
+.subSlogan{
+	font-size: 25px;
+	color: #383838;
+}
+.quoteBtnSection{
+	margin-top: 60px;
+}
+.quoteBtn{
+	outline: none !important;
+	width: 30%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-radius: 50px;
+}
+.pageDivider{
+	height: 70px;
+	background-color: #EEEEEE;
+}
