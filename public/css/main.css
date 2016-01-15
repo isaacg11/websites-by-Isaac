@@ -4,9 +4,10 @@ body, html {
 
 /*HOME PAGE*/
 #homepage-NavSection{
-	height: 730px;
+	height: 800px;
 	padding-left: 40px;
 	padding-top: 10px;
+	background-color: #F8F8F8;
 }
 .laptopIcon{
 	font-size: 40px;
@@ -41,7 +42,25 @@ body, html {
 	padding-bottom: 25px;
 	border-radius: 50px;
 }
-.pageDivider{
-	height: 70px;
-	background-color: #EEEEEE;
+.homepageSection{
+	height: 580px;
+}
+.sectionHeader{
+	font-size: 50px;
+	color: #383838;
+}
+.cellphoneImg{
+	margin-top: 60px;
+}
+.solutionsHeader{
+	font-size: 20px;
+	color: #383838;
+	margin-top: 70px;
+}
+.solutionsIcon{
+	font-size: 50px;
+	margin-top: 100px;
+}
+.solutionDescription{
+	font-size: 18px;
 }
