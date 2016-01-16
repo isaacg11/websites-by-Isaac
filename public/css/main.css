@@ -1,7 +1,9 @@
 body, html {
 	font-family: "Open Sans" !important;
 }
-
+.pageDiv{
+	padding:0px;
+}
 /*SECTION 1: NAVIGATION*/
 #homepage-NavSection{
 	height: 800px;
@@ -133,4 +135,35 @@ body, html {
 }
 .white{
 	color: #fff;
+}
+/*SECTION 6: BENEFITS*/
+#computerImg{
+	width: 100%;
+}
+.benefitsHeader{
+	font-size: 22px;
+	margin-top: 150px;
+	margin-left: 10px;
+	color: #383838;
+}
+.benefitsIcon-top{
+	font-size: 40px;
+}
+.benefitsIcon-bottom{
+	margin-top: 80px;
+	font-size: 40px;
+}
+.benefitsDescription{
+	font-size: 18px;
+	margin-left: 50px;
+}
+.benefitsIcon-bottom{
+	font-size: 40px;
+}
+.benefitsSection{
+	margin-top: 40px;
+}
+.computerSection{
+	padding:0px;
+	margin-top: 90px;
 }
