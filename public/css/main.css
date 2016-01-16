@@ -2,7 +2,7 @@ body, html {
 	font-family: "Open Sans" !important;
 }
 
-/*HOME PAGE*/
+/*SECTION 1: NAVIGATION*/
 #homepage-NavSection{
 	height: 800px;
 	padding-left: 40px;
@@ -42,12 +42,15 @@ body, html {
 	padding-bottom: 25px;
 	border-radius: 50px;
 }
-.homepageSection{
-	height: 580px;
-}
+/*SECTION 2: SOLUTIONS*/
 .sectionHeader{
 	font-size: 50px;
 	color: #383838;
+	margin-bottom: 0px;
+}
+.sectionHeaderUnderline{
+	background-color: #48A3F4;
+	height: 5px;
 }
 .cellphoneImg{
 	margin-top: 60px;
@@ -63,4 +66,56 @@ body, html {
 }
 .solutionDescription{
 	font-size: 18px;
+}
+/*SECTION 3: SERVICES*/
+.divider{
+	border-top: 1px solid #cccccc;
+	margin-top: 70px;
+}
+.serviceImg{
+	width: 100%;
+	max-height: 80vh;
+}
+.serviceHeader{
+	font-size: 20px;
+	color: #383838;
+	margin-top: 40px;
+	font-weight: bold;
+}
+/*SECTION 4: REVIEWS*/
+.reviewImg{
+	margin-top: 70px;
+	border-radius: 50%;
+	border:10px double #EEEEEE;
+}
+.reviewName{
+	margin-top: 90px;
+	margin-left: 20px;
+	font-size: 18px;
+}
+.reviewTitle{
+	margin-left: 20px;
+	font-size: 18px;
+	margin-top: 0px;
+}
+.reviewSection{
+	margin-top: 20px;
+	height: 250px;
+	border-left: 1px solid #cccccc;
+}
+.reviewDescription{
+	font-size: 22px;
+	margin-top: 50px;
+	margin-left: 30px;
+}
+.dividerReview{
+	border-top: 1px solid #cccccc;
+	margin-top: 20px;
+}
+/*SECTION 5: BRANDS*/
+.brandImg{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 30px;
+	width: 100%;
 }
