@@ -1,4 +1,4 @@
-<div ng-controller="homeCtrl">
+<div id="scrollArea" ng-controller="homeCtrl">
 
 <!--PAGE DIV-->
 	<div class="container-fluid pageDiv">
@@ -10,10 +10,10 @@
 					<i class="fa fa-laptop large laptopIcon"></i> <span class="companyName">Websites by Isaac</span>
 				</div>
 				<div class="col-xs-2 text-center">
-					<p class="navOption">Services</p>
+					<p ng-click="goToServices()" class="navOption">Services</p>
 				</div>
 				<div class="col-xs-2 text-center">
-					<p class="navOption">Reviews</p>
+					<p ng-click="goToReviews()" class="navOption">Reviews</p>
 				</div>
 				<div class="col-xs-2 text-center">
 					<p class="navOption">About</p>
@@ -23,7 +23,8 @@
 					<p class="subSlogan">Custom software engineering & web design</p>
 				</div>
 				<div class="col-xs-12 text-center quoteBtnSection">
-					<button 
+					<button
+						ng-click="goToContact()"
 						type="button" 
 						class="btn btn-info btn-lg quoteBtn">
 						Get a free quote!
@@ -97,6 +98,7 @@
 				<div class="divider"></div>
 			</div>
 <!--SECTION THREE : SERVICES-->
+			<span id="services"></span>
 			<div class="col-xs-12">
 				<div class="col-xs-12 text-center">
 					<br>
@@ -136,6 +138,7 @@
 				</div>
 			</div>
 <!--SECTION FOUR : REVIEWS-->
+			<span id="reviews"></span>
 			<div class="col-xs-12">
 				<div class="divider"></div>
 			</div>
@@ -217,6 +220,7 @@
 				<div class="col-xs-4"></div>
 				<div class="col-xs-4">
 					<div class="contactForm">
+						<span id="contact"></span>
 						<br>
 						<p class="contactFormHeader text-center">Contact Me</p>
 						<p class="contactFormEmail text-center">isaac.grey@websitesbyisaac.com
@@ -268,3 +272,8 @@
 		</div>
 <!--CLOSING CTRL DIV-->
 	</div>
+
+<script>
+
+
+</script>

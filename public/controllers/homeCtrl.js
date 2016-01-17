@@ -6,8 +6,22 @@
 
   function homeCtrl(homeFactory, $state, $http, $scope, $stamplay, $location, $anchorScroll){
 
-   $scope.message = "hello";
+  	$scope.goToContact = function() {
+      $location.hash('contact');
+      $anchorScroll();
+  	};
+  	
+      
+  	$scope.goToServices = function(){
+  		$location.hash('services');
+      	$anchorScroll();
+  	};
+
+  	$scope.goToReviews = function(){
+  		$location.hash('reviews');
+      	$anchorScroll();
+  	};
 
   //CLOSING BRACKETS
   }
-  })();
+  })();  	

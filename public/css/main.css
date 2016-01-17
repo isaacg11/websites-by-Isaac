@@ -33,6 +33,7 @@ body, html {
 .navOption:hover{
 	padding-top: 30px;
 	color: #000;
+	text-decoration: underline;
 	cursor: pointer;
 	font-weight: bold;
 
