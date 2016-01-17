@@ -22,6 +22,7 @@ body, html {
 	font-weight: bold;
 	color: #000;
 	margin-left: 10px;
+	font-family: "Rock Salt";
 }
 .navOption{
 	padding-top: 30px;
@@ -61,7 +62,9 @@ body, html {
 .sectionHeader{
 	font-size: 50px;
 	color: #383838;
+	margin-top: 70px;
 	margin-bottom: 0px;
+	font-family: "Rock Salt";
 }
 .sectionHeaderUnderline{
 	background-color: #48A3F4;
@@ -185,7 +188,7 @@ body, html {
 	background-image: url("/public/images/mars2.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 900px;
+	height: 1000px;
 	margin-top: 60px;
 }
 .contactForm{
@@ -194,6 +197,11 @@ body, html {
 	border-radius: 10px;
 	padding-left: 30px;
 	padding-right: 30px;
+}
+.contactFormHeader{
+	font-size: 50px;
+	color: #383838;
+	margin-bottom: 0px;
 }
 .contactFormEmail{
 	font-size: 22px;
@@ -218,4 +226,10 @@ body, html {
 	margin-top: 30px;
 	margin-bottom: 30px;
 	outline: none !important;
+}
+.footer{
+	margin-top: 70px;
+	margin-bottom: 70px;
+	font-size: 18px;
+	color: #000;
 }
