@@ -4,7 +4,8 @@
   .controller('homeCtrl', homeCtrl);
   homeCtrl.$inject = ['homeFactory', '$state',"$http","$scope", "$stamplay","$location","$anchorScroll"];
 
-  function homeCtrl(homeFactory, $state, $http, $scope, $stamplay, $location, $anchorScroll){
+  function homeCtrl(homeFactory, $state, $http, $scope, $stamplay, $location, $anchorScroll, duParallax){
+
 
   	$scope.goToContact = function() {
       $location.hash('contact');

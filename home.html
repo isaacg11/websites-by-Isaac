@@ -5,7 +5,7 @@
 <!--NAVBAR-->
 		<div class="row">
 <!--SECTION ONE : NAVIGATION-->
-			<div id="homepage-NavSection" class="col-xs-12">
+			<div id="homepage-NavSection">
 				<div class="col-xs-6">
 					<i class="fa fa-laptop large laptopIcon"></i> <span class="companyName">Websites by Isaac</span>
 				</div>
@@ -34,7 +34,7 @@
 			<br>
 			<br>
 <!--SECTION TWO : SOLUTIONS-->
-			<div class="col-xs-12">
+			<div class="col-xs-12 solutionsSection">
 				<div class="col-xs-12 text-center">
 					<br>
 					<br>
@@ -66,7 +66,32 @@
 				</div>
 <!--CELL PHONE IMG-->
 				<div class="col-xs-4 text-center">
-					<img src="public/images/cellphone.png" class="cellphoneImg" />
+					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  					<!-- Indicators -->
+  						<ol class="carousel-indicators">
+    						<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    						<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    						<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  						</ol>
+<!-- Wrapper for slides -->
+  						<div id="cellphoneCarousel" class="carousel-inner" role="listbox">
+    						<div class="item active" align="center">
+      							<img src="public/images/cellphone.png" class="carouselImg">
+      							<div class="carousel-caption">
+      							</div>
+    						</div>
+    						<div class="item" align="center">
+      							<img src="public/images/cellphone2.png" class="carouselImg">
+      							<div class="carousel-caption">
+      							</div>
+    						</div>
+    						<div class="item" align="center">
+      							<img src="public/images/cellphone3.png" class="carouselImg">
+      							<div class="carousel-caption">
+      							</div>
+    						</div>
+  						</div>
+					</div>
 				</div>
 <!--RIGHT SUB-SECTION-->
 				<div class="col-xs-4">
@@ -275,5 +300,35 @@
 
 <script>
 
+	$('.carousel').carousel({
+  		// interval: 2000
+	});
+
+	// $(document).ready(function(){
+ //       $('.parallax').scrolly({bgParallax: true});
+ //    });
+
+// jQuery( document ).ready(function() {
+
+	// jQuery(".primary-image").fallings({
+	// 	velocity: 0.5,
+	//  	bgParallax: true,
+     	// bgPercent: '50%'
+	// });
+
+    // jQuery(".primary-image").fallings({
+    //     velocity: 0.1,
+    //     bgParallax: true,
+    //     bgPercent: '10%'
+    // });
+
+    // $(".footer-image").fallings({
+    //     velocity: 0.3,
+    //     initialPosition: 100,
+    //     bgParallax: true,
+    //     bgPercent: '50%'
+    // });
+
+// });
 
 </script>

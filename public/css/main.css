@@ -5,6 +5,10 @@ body, html {
 	padding:0px;
 }
 /*SECTION 1: NAVIGATION*/
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
 #homepage-NavSection{
 	height: 800px;
 	padding-left: 40px;
@@ -60,6 +64,9 @@ body, html {
 	border-radius: 50px;
 }
 /*SECTION 2: SOLUTIONS*/
+.solutionsSection{
+	margin-top: 20px;
+}
 .sectionHeader{
 	font-size: 50px;
 	color: #383838;
@@ -71,7 +78,24 @@ body, html {
 	background-color: #48A3F4;
 	height: 5px;
 }
-.cellphoneImg{
+.carousel-inner{
+	background-color: #fff !important;
+}
+#cellphoneCarousel{
+	background-color: #fff !important;
+}
+.carousel-control.left{
+	background-color: none;
+	background-image: none;
+}
+.carousel-control.right{
+	background-color: none;
+	background-image: none;
+
+}
+#carousel-example-generic{
+	background-color: #fff !important;
+	color: #fff;
 	margin-top: 60px;
 }
 .solutionsHeader{
