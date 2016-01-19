@@ -139,27 +139,27 @@
 				<div class="col-xs-4"></div>
 				<div class="col-xs-6 text-center">
 					<p class="serviceHeader">ECOMMERCE</p>
-					<img src="public/images/ecommerce.jpg" class="serviceImg" />
+					<img src="public/images/ecommerce.jpg" class="serviceImg hideme" />
 				</div>
 				<div class="col-xs-6 text-center">
 					<p class="serviceHeader">INDEPENDENT CONTRACTING</p>
-					<img src="public/images/professional.jpg" class="serviceImg" />
+					<img src="public/images/professional.jpg" class="serviceImg hideme" />
 				</div>
 				<div class="col-xs-6 text-center">
 					<p class="serviceHeader">SOCIAL MEDIA</p>
-					<img src="public/images/socialmedia.jpg" class="serviceImg"/>
+					<img src="public/images/socialmedia.jpg" class="serviceImg hideme"/>
 				</div>
 				<div class="col-xs-6 text-center">
 					<p class="serviceHeader">EDUCATIONAL</p>
-					<img src="public/images/education.jpg" class="serviceImg" />
+					<img src="public/images/education.jpg" class="serviceImg hideme"/>
 				</div>
 				<div class="col-xs-6 text-center">
 					<p class="serviceHeader">BLOG</p>
-					<img src="public/images/blog.jpg" class="serviceImg" />
+					<img src="public/images/blog.jpg" class="serviceImg hideme"/>
 				</div>
 				<div class="col-xs-6 text-center">
 					<p class="serviceHeader">RESUME</p>
-					<img src="public/images/resume.jpg" class="serviceImg" />
+					<img src="public/images/resume.jpg" class="serviceImg hideme"/>
 				</div>
 			</div>
 <!--SECTION FOUR : REVIEWS-->
@@ -358,8 +358,25 @@
 
 <script>
 
+//CAROUSEL
 	$('.carousel').carousel({
   		// interval: 2000
+	});
+
+//FADE IN IMAGE
+	$(document).ready(function() {
+    /* Every time the window is scrolled ... */
+    	$(window).scroll( function(){
+        	/* Check the location of each desired element */
+    		$('.hideme').each( function(i){
+            	var bottom_of_object = $(this).offset().top + 50;
+            	var bottom_of_window = $(window).scrollTop() + $(window).height();
+            	/* If the object is completely visible in the window, fade it it */
+            	if( bottom_of_window > bottom_of_object ){
+                	$(this).animate({'opacity':'1'},500);
+            	}
+        	}); 
+    	});
 	});
 
 	// $(document).ready(function(){
