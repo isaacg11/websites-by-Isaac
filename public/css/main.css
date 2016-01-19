@@ -1,5 +1,6 @@
 body, html {
 	font-family: "Open Sans" !important;
+	min-height: 100vh;
 }
 .pageDiv{
 	padding:0px;
@@ -130,6 +131,8 @@ body, html {
 	margin-top: 70px;
 	border-radius: 50%;
 	border:10px double #EEEEEE;
+	height: 100px;
+	width: 100px;
 }
 .reviewName{
 	margin-top: 90px;
@@ -140,6 +143,7 @@ body, html {
 	margin-left: 20px;
 	font-size: 18px;
 	margin-top: 0px;
+	margin-bottom: 90px;
 }
 .reviewSection{
 	margin-top: 20px;
@@ -148,7 +152,7 @@ body, html {
 }
 .reviewDescription{
 	font-size: 22px;
-	margin-top: 50px;
+	margin-top: 70px;
 	margin-left: 30px;
 }
 .dividerReview{

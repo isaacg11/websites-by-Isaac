@@ -9,7 +9,6 @@
 			console.log("Login From Redirect.");
 			console.log(window.location.href.split("?"));
 		} else {
-			console.log("Not from redirect.");
 		}
 	});
 	app.config(function($httpProvider) {
