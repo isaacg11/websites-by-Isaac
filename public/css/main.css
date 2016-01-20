@@ -1,5 +1,5 @@
 body, html {
-	font-family: "Open Sans" !important;
+	font-family: "Roboto" !important;
 	min-height: 100vh;
 }
 .pageDiv{
@@ -14,7 +14,7 @@ body, html {
 	height: 800px;
 	padding-left: 40px;
 	padding-top: 10px;
-	background-image: url("/public/images/mars.jpg");
+	background-image: url("/public/images/sanfran.gif");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -44,15 +44,17 @@ body, html {
 
 }
 .sloganSection{
-	margin-top: 130px;
+	margin-top: 190px;
 }
 .slogan{
 	font-size: 60px;
-	color: #000;
+	color: #262626;
 }
 .subSlogan{
 	font-size: 35px;
 	color: #000;
+	font-weight: lighter;
+
 }
 .quoteBtnSection{
 	margin-top: 30px;
@@ -67,13 +69,15 @@ body, html {
 /*SECTION 2: SOLUTIONS*/
 .solutionsSection{
 	margin-top: 20px;
+	margin-bottom: 60px;
 }
-.sectionHeader{
-	font-size: 50px;
-	color: #383838;
-	margin-top: 70px;
-	margin-bottom: 0px;
-	font-family: "Rock Salt";
+.sectionHeader-Solutions{
+	font-size: 55px;
+	color: #4d4d4d;
+	margin-top: 100px;
+	margin-bottom: 10px;
+	font-family: "Roboto";
+	font-weight: lighter;
 }
 .sectionHeaderUnderline{
 	background-color: #48A3F4;
@@ -109,12 +113,43 @@ body, html {
 	margin-top: 100px;
 }
 .solutionDescription{
-	font-size: 18px;
+	font-size: 22px;
+	font-weight: lighter;
 }
-/*SECTION 3: SERVICES*/
+
+/*SECTION 3: MODERN DESIGN*/
+.modernDesignSection{
+	background-color: #F6F6F6;
+}
+.modernDesignImg{
+	margin-top: 100px;
+	width: 100%;
+}
+.sectionHeader-modernDesign{
+	font-size: 55px;
+	color: #4d4d4d;
+	margin-top: 200px;
+	font-family: "Roboto";
+	font-weight: lighter;
+}
+.methodsDescription{
+	font-size: 22px;
+	color: #999999;
+	font-family: "Roboto";
+	font-weight: lighter;
+}
+/*SECTION 4: SERVICES*/
 .divider{
-	border-top: 1px solid #cccccc;
+	border-top: 1px solid #F6F6F6;
 	margin-top: 70px;
+}
+.sectionHeader-Services{
+	font-size: 55px;
+	color: #4d4d4d;
+	margin-top: 100px;
+	margin-bottom: 10px;
+	font-family: "Roboto";
+	font-weight: lighter;
 }
 .serviceImg{
 	width: 100%;
@@ -129,7 +164,7 @@ body, html {
 	margin-top: 40px;
 	font-weight: bold;
 }
-/*SECTION 4: REVIEWS*/
+/*SECTION 5: REVIEWS*/
 .reviewImg{
 	margin-top: 70px;
 	border-radius: 50%;
@@ -163,7 +198,7 @@ body, html {
 	border-top: 1px solid #cccccc;
 	margin-top: 20px;
 }
-/*SECTION 5: BRANDS*/
+/*SECTION 6: BRANDS*/
 #codercampsImg{
 	width: 100%;
 	margin-top: 40px;
@@ -185,40 +220,30 @@ body, html {
 .white{
 	color: #fff;
 }
-/*SECTION 6: BENEFITS*/
+/*SECTION 7: BENEFITS*/
 #computerImg{
 	width: 100%;
-}
-.benefitsHeader{
-	font-size: 22px;
-	margin-top: 150px;
-	margin-left: 10px;
-	color: #383838;
-}
-.benefitsIcon-top{
-	font-size: 40px;
-}
-.benefitsIcon-bottom{
-	margin-top: 80px;
-	font-size: 40px;
-}
-.benefitsDescription{
-	font-size: 18px;
-	margin-left: 50px;
-}
-.benefitsIcon-bottom{
-	font-size: 40px;
-}
-.benefitsSection{
-	margin-top: 40px;
 }
 .computerSection{
 	padding:0px;
 	margin-top: 90px;
 }
-/*SECTION 7: QUOTE*/
+.sectionHeader-Benefits{
+	font-size: 55px;
+	color: #4d4d4d;
+	margin-top: 200px;
+	font-family: "Roboto";
+	font-weight: lighter;
+}
+.benefitsDescription{
+	font-size: 22px;
+	color: #999999;
+	font-family: "Roboto";
+	font-weight: lighter;
+}
+/*SECTION 6: CONTACT FORM*/
 .quoteSection{
-	background-image: url("/public/images/mars2.jpg");
+	background-image: url("/public/images/hikers.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 1000px;
